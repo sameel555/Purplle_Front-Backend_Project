@@ -21,11 +21,15 @@ const basket1 = document.getElementById("basket1");
 //   window.location.href = "wishlist.html";
 // });
 basket1.addEventListener("click", function () {
-  console.log("CLICKING");
-  window.location.href = "../basket/basket.html";
+  //console.log("CLICKING");
+  window.location.href = "./basket/basket.html";
 });
 signUP1.addEventListener("click", function () {
-  window.location.href = "../signup/signup.html";
+  window.location.href = "./signup/signup.html";
+});
+const navMid1 = document.getElementById("homePageNavigation1");
+navMid1.addEventListener("click", function () {
+  window.location.href = "./index.html";
 });
 
 
@@ -46,18 +50,18 @@ const basket = document.getElementById("basket");
 //   window.location.href = "wishlist.html";
 // });
 basket.addEventListener("click", function () {
-  window.location.href = "../basket/basket.html";
+  window.location.href = "./basket/basket.html";
 });
 const navMid = document.getElementById("homePageNavigation");
 navMid.addEventListener("click", function () {
-  window.location.href = "../index/LandingPage.html";
+  window.location.href = "./index.html";
 });
 
 function goToProductPage(){
-  window.location.href="../product/ProductPage.html"
+  window.location.href="./product/ProductPage.html"
 }
 signUP.addEventListener("click", function () {
-  window.location.href = "../signup/signup.html";
+  window.location.href = "./signup/signup.html";
 });
 // ------------------------------------------------------------------
 

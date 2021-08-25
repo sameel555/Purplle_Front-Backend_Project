@@ -280,7 +280,7 @@ console.log("d ", d)
 let homePageNavigation = document.getElementById("homePageNavigation");
 
 homePageNavigation.addEventListener('click', function () {
-  window.location.href = "../index/LandingPage.html";
+  window.location.href = "../index.html";
 })
 
 // Move to Home Page by Nav Logo End - Bhanu ---------------------

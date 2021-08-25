@@ -28,5 +28,5 @@ function signUp() {
 }
 
 function backToLP() {
-  window.location.href = "LandingPage.html";
+  window.location.href = "../index.html";
 }

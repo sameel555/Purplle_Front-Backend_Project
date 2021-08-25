@@ -16,7 +16,7 @@ function startLogin(e) {
 
     if (u === username && p === password) {
       //  alert("Succeed");
-      window.location.href = "../index/LandingPage.html";
+      window.location.href = "../index.html";
       document.getElementById("mobile").value = null;
       document.getElementById("password").value = null;
       break;
@@ -32,5 +32,5 @@ function startLogin(e) {
 }
 
 // function backToLP() {
-//   window.location.href = "../index/LandingPage.html";
+//   window.location.href = "../index.html";
 // }

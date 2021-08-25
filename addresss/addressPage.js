@@ -29,5 +29,5 @@ fatchData()
 }
   
 function gotoHome() {
-    window.location.href = "../index/LandingPage.html"
+    window.location.href = "../index.html"
 }

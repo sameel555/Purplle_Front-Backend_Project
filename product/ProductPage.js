@@ -15,7 +15,7 @@ basket.addEventListener("click", function () {
 });
 const navMid = document.getElementById("homePageNavigation");
 navMid.addEventListener("click", function () {
-  window.location.href = "../index/LandingPage.html";
+  window.location.href = "../index.html";
 });
 
 // Nav Bar Wishlist End
