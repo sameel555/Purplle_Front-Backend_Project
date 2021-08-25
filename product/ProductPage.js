@@ -1,3 +1,48 @@
+/* Scrolling Functionalities*/
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById('navbar');
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("scrolling-active")
+  } else {
+    navbar.classList.remove("scrolling-active");
+  }
+}
+
+const wishList1 = document.getElementById("wishList1");
+const signUP1 = document.getElementById("signUp1");
+const basket1 = document.getElementById("basket1");
+// wishList.addEventListener("click", function () {
+//   window.location.href = "wishlist.html";
+// });
+basket1.addEventListener("click", function () {
+  //console.log("CLICKING");
+  window.location.href = "../basket/basket.html";
+});
+signUP1.addEventListener("click", function () {
+  window.location.href = "../signup/signup.html";
+});
+const navMid1 = document.getElementById("homePageNavigation1");
+navMid1.addEventListener("click", function () {
+  window.location.href = "../index.html";
+});
+
+
+
+/*window.addEventListener('scroll', function () {
+  let nav = document.querySelector('nav');
+  let sticky = nav.offsetTop;
+
+  nav.classList.toggle('scrolling-active');
+})*/
+// -----------------------------------------------------
+
+
+
+
 let productListDiv = document.getElementById("productList");
 
 //-------------------------------------------------------------------------

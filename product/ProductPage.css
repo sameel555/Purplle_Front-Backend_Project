@@ -112,6 +112,67 @@
 .bannerImages > img {
   width: 100%;
 }
+/*Fixing NavBAr on Scrolling*/
+.flex {
+  display: none;
+
+}
+
+/* header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: background-color .5s ease;
+  z-index: 1000;
+} */
+.scrolling-active {
+  display: block;
+  overflow: hidden;
+  height: 80px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: whitesmoke;
+  color: black;
+}
+
+.scrolling-active .flex {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.scrolling-active .navBottom_links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.scrolling-active .dropdown-content {
+  display: none;
+  position: fixed;
+  /* width: 100%; */
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 12;
+}
+
+.scrolling-active .navRight {
+  width: 25%;
+  display: flex;
+  margin-left: 12%;
+  margin-top: -13px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* dropdown */
 
