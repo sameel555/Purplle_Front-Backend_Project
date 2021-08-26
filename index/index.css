@@ -117,9 +117,8 @@
   width: 100%;
 }
 /*Fixing NavBAr on Scrolling*/
-.flex{
+.flex {
   display: none;
-  
 }
 
 /* header {
@@ -130,17 +129,17 @@
   transition: background-color .5s ease;
   z-index: 1000;
 } */
- .scrolling-active {
-     display: block;
-      overflow: hidden;
-     height: 80px;
-     position: fixed;
-     z-index: 1000;
-     top: 0;
-     width: 100%;
-     background-color:white;
-     box-shadow: whitesmoke;
-     color: black;
+.scrolling-active {
+  display: block;
+  overflow: hidden;
+  height: 80px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: whitesmoke;
+  color: black;
 }
 .scrolling-active .flex {
   display: flex;
@@ -154,8 +153,8 @@
 .scrolling-active .navBottom_links {
   display: flex;
   justify-content: center;
-  margin-top: 20px; 
-   margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 .scrolling-active .dropdown-content {
   display: none;
@@ -258,6 +257,7 @@
 }
 .drop-down-link-container-of-products-links p {
   margin: 20px;
+  margin-left: 0px;
   font-size: 13px;
   cursor: pointer;
 }
@@ -916,19 +916,17 @@ font-weight: 600;
 
 /*--------VALUE SETS END----*/
 
-
 /* //media querrie */
 
 /* //for mobile */
-@media screen and (max-width: 500px){
-  
-   /* .spaceBetweenNav{
+@media screen and (max-width: 500px) {
+  /* .spaceBetweenNav{
      display: none;
    } */
-   .navLeft{
-     display: none;
-   }
-   .icons {
+  .navLeft {
+    display: none;
+  }
+  .icons {
     margin: 5px;
     font-size: 20px;
     color: rgb(128, 140, 147);
@@ -936,14 +934,14 @@ font-weight: 600;
   .icons:hover {
     cursor: pointer;
   }
-  .navMid{
-  margin-left: -150px;
+  .navMid {
+    margin-left: -150px;
   }
-  #homePageNavigation{
+  #homePageNavigation {
     width: 80px;
     height: 40px;
   }
-  #tryElite{
+  #tryElite {
     width: 30px;
     height: 30px;
   }
@@ -958,20 +956,19 @@ font-weight: 600;
     margin: 0px 0px 0px 0px;
     font-size: 10px;
     font-weight: 400;
-   
   }
-  .drop-down-link-container-of-products-links h5 p{
-   font-size:10px;
+  .drop-down-link-container-of-products-links h5 p {
+    font-size: 10px;
   }
   .new_launch_img_product {
     width: 100px;
     height: 150px;
   }
-  .goodvibes_img_product{
+  .goodvibes_img_product {
     width: 100px;
     height: 150px;
   }
-  .purpllepicks_img_product{
+  .purpllepicks_img_product {
     width: 100px;
     height: 150px;
   }
@@ -980,24 +977,24 @@ font-weight: 600;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .topbrands_img_product{
+  .topbrands_img_product {
     width: 100px;
     height: 150px;
   }
-  .brandstores_img_product{
+  .brandstores_img_product {
     width: 100px;
     height: 150px;
   }
-  .valueSets{
+  .valueSets {
     display: none;
   }
-  .videoContainerFrame{
+  .videoContainerFrame {
     display: none;
   }
-  .linkContainer{
+  .linkContainer {
     display: none;
   }
-  .footer{
+  .footer {
     width: 100%;
   }
   .eachFooter h4 {
@@ -1011,93 +1008,90 @@ font-weight: 600;
 }
 
 /* for tabs */
-@media only screen and (max-width: 900px){
-  .navLeft{
+@media only screen and (max-width: 900px) {
+  .navLeft {
     display: none;
   }
   .icons {
-   margin: 10px;
-   font-size:15px;
-   color: rgb(128, 140, 147);
- }
- .icons:hover {
-   cursor: pointer;
- }
- .navMid{
- margin-left: -150px;
- }
- #homePageNavigation{
-   width: 80px;
-   height: 40px;
- }
- #tryElite{
-   width: 30px;
-   height: 30px;
- }
- .navBottom_links li {
-   display: inline;
-   /* margin: 0px 30px 20px 0px; */
-   font-size: 12px;
-   font-weight: 300;
- }
- .products-menu-dropDown-links li {
-   /* display: inline; */
-   margin: 0px 0px 0px 0px;
-   font-size: 10px;
-   font-weight: 400;
-  
- }
- .drop-down-link-container-of-products-links h5 p{
-  font-size:10px;
- }
- .new_launch_img_product {
-   width: 100px;
-   height: 150px;
- }
- .goodvibes_img_product{
-   width: 100px;
-   height: 150px;
- }
- .purpllepicks_img_product{
-   width: 100px;
-   height: 150px;
- }
- .tradingitems {
-   /* margin-left: 20px; */
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
- }
- .topbrands_img_product{
-   width: 100px;
-   height: 150px;
- }
- .brandstores_img_product{
-   width: 100px;
-   height: 150px;
- }
- .valueSets{
-   display: none;
- }
- .videoContainerFrame{
-   display: none;
- }
- .linkContainer{
-   display: none;
- }
- .footer{
-   width: 100%;
- }
- .eachFooter h4 {
-   font-size: 10px;
-   margin: 18.62px 0px;
- }
- .eachFooter p {
-   font-size: 9px;
-   margin: 11px 0px;
- }
-
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(128, 140, 147);
+  }
+  .icons:hover {
+    cursor: pointer;
+  }
+  .navMid {
+    margin-left: -150px;
+  }
+  #homePageNavigation {
+    width: 80px;
+    height: 40px;
+  }
+  #tryElite {
+    width: 30px;
+    height: 30px;
+  }
+  .navBottom_links li {
+    display: inline;
+    /* margin: 0px 30px 20px 0px; */
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .products-menu-dropDown-links li {
+    /* display: inline; */
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .drop-down-link-container-of-products-links h5 p {
+    font-size: 10px;
+  }
+  .new_launch_img_product {
+    width: 100px;
+    height: 150px;
+  }
+  .goodvibes_img_product {
+    width: 100px;
+    height: 150px;
+  }
+  .purpllepicks_img_product {
+    width: 100px;
+    height: 150px;
+  }
+  .tradingitems {
+    /* margin-left: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .topbrands_img_product {
+    width: 100px;
+    height: 150px;
+  }
+  .brandstores_img_product {
+    width: 100px;
+    height: 150px;
+  }
+  .valueSets {
+    display: none;
+  }
+  .videoContainerFrame {
+    display: none;
+  }
+  .linkContainer {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+  }
+  .eachFooter h4 {
+    font-size: 10px;
+    margin: 18.62px 0px;
+  }
+  .eachFooter p {
+    font-size: 9px;
+    margin: 11px 0px;
+  }
 }
 /* for desktop */
-@media only screen and (max-width: 900px){
-
+@media only screen and (max-width: 900px) {
 }
