@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 .container {
   width: 94%;
@@ -224,8 +225,9 @@
 .products-menu-dropDown-links li {
   /* display: inline; */
   margin: 0px 30px 20px 0px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: serif;
   width: 100px;
 }
 .products-menu-dropDown-links a {
@@ -1095,3 +1097,13 @@ font-weight: 600;
 /* for desktop */
 @media only screen and (max-width: 900px) {
 }
+
+.clensers~p,.eyecare~p,.handcare~p,.toner~p{
+  font-size: 11px;
+   font-family: sans-serif;
+}
+h5{
+  font-size: 13px;
+   font-family: sans-serif;
+}
+
