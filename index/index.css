@@ -1094,8 +1094,85 @@ font-weight: 600;
     margin: 11px 0px;
   }
 }
-/* for desktop */
+ /* for desktop scrolling nav start */
 @media only screen and (max-width: 900px) {
+    /* scrolling Nav start*/
+    .scrolling-active {
+      display: block;
+      overflow: hidden;
+      height: 80px;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: whitesmoke;
+      color: black;
+    }
+
+    .scrolling-active .flex {
+      display: flex;
+      position: fixed;
+      flex-direction: row;
+      width: 100%;
+      overflow: hidden;
+      margin-left: 41px;
+      margin-top: 33px;
+    }
+
+    .scrolling-active .navBottom_links {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      margin-left: 10px;
+    }
+
+    .scrolling-active .dropdown-content {
+      display: none;
+      position: fixed;
+      /* width: 100%; */
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 12;
+    }
+
+    .scrolling-active .navRight {
+      width: 25%;
+      display: flex;
+      margin-left: 1%;
+      margin-top: 4px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #homePageNavigation1 {
+      height: 46.5938px;
+      width: 100px;
+    }
+
+    #tryElite {
+      width: 25px;
+      height: 25px;
+    }
+
+    .navMid {
+      margin-left: 16px;
+    }
+
+    .navBottom_links li {
+      display: inline;
+      margin-left: 10px;
+      margin-top: 5px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .icons {
+      font-size: 20px;
+      color: rgb(128, 140, 147);
+    }
+
+    /* scrolling nav end */
 }
 
 .clensers~p,.eyecare~p,.handcare~p,.toner~p{
