@@ -1175,6 +1175,88 @@ font-weight: 600;
     /* scrolling nav end */
 }
 
+@media only screen and (max-width: 500px) {
+
+  /* scrolling Nav start*/
+  .scrolling-active {
+    display: block;
+    overflow: hidden;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: whitesmoke;
+    color: black;
+  }
+
+  .scrolling-active .flex {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 17px;
+    margin-top: 33px;
+  }
+
+  .scrolling-active .navBottom_links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: -22px;
+  }
+
+  .scrolling-active .dropdown-content {
+    display: none;
+    position: fixed;
+    /* width: 100%; */
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 12;
+  }
+
+  .scrolling-active .navRight {
+    width: 25%;
+    display: flex;
+    margin-left: -4%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #homePageNavigation1 {
+    height: 28.5938px;
+    width: 55px;
+  }
+
+  #tryElite {
+    width: 20px;
+    height: 20px;
+  }
+
+  .navMid {
+    margin-left: 18px;
+  }
+
+  .navBottom_links li {
+    display: inline;
+    margin-left: -7px;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .icons {
+    font-size: 13px;
+    color: rgb(128, 140, 147);
+  }
+
+  /* scrolling nav end */
+}
+
+
 .clensers~p,.eyecare~p,.handcare~p,.toner~p{
   font-size: 11px;
    font-family: sans-serif;
