@@ -32,55 +32,55 @@ All the images, icons, and links have taken from the original website (https://w
 
 ## Landing Page
 
-![LandingPage](../images/LandingPage.png)
+![LandingPage](../master/images/LandingPage.jpg)
 
 This is the landing page of our website. You can see and choose all latest and trending top products from here.
 
 ## SignUp Page
 
-![SignUpPage](static/images/SignupPage.png)
+![SignUpPage](../master/images/Signup.png)
 
 You can signup with our website from here .
 
 ## Login Page
 
-![LoginPage](static/images/LoginPage.png)
+![LoginPage](../master/images/Login.png)
 
 You can login to our website from here by entering required details.
 
 ## Navigation Bar
 
-![NavBar](static/images/NavigationBar.png)
+![NavBar](../master/images/NavigationBar.png)
 
 Here, you can choose a category of products whatever you want.
 
 ## Products Page
 
-![ProductsPage](static/images/ProductPage.png)
+![ProductsPage](../master/images/ProductsPage.png)
 
 Here, you can see all the products and whenever you hover on any product you will see ADD TO CART option, bu clicking the button you can add the products to cart.
 
 ## Cart Page
 
-![CartPage](static/images/CartPage.png)
+![CartPage](../master/images/CartPage.png)
 
 Here, you can see all of your products which are added into cart, you can avail the discount by applyling the promocode in respective field and you can remove any product from here also.
 
 ## Address Page
 
-![AddressPage](static/images/AddressPage.png)
+![AddressPage](../master/images/AddressPage.png)
 
 In this page you can add your address to where your product should be delivered.
 
 ## Payment Page
 
-![PaymentPage](static/images/PaymentPage.png)
+![PaymentPage](../master/images/PaymentPage.png)
 
 You can see lot of payment options here and you can choose any one of them to pay for your product.
 
 ## Summary Page
 
-![ThankyouPage](static/images/SummaryPage.png)
+![ThankyouPage](../master/images/ThankyouPage.png)
 
 Finally, Here you can see your order details and summary and by clicking continue you will be redirected to home page and you can continue the shopping.
 
