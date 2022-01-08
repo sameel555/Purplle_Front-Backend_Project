@@ -38,7 +38,7 @@ This is the landing page of our website. You can see and choose all latest and t
 
 ## SignUp Page
 
-![SignUpPage](../master/images/Signup.png)
+![SignUpPage](../master/images/SignUp.png)
 
 You can signup with our website from here .
 
